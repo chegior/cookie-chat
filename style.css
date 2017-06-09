@@ -18,6 +18,7 @@ body {
 }
 
 .main-container h1 {
+
   text-align: center;
 }
 
@@ -27,7 +28,17 @@ body {
 }
 
 p{
-  text-align: center;
+  border: 1px solid black;
+  text-align: left;
   margin: 3px 0;
-  font-size: 17px;
+  font-size: 20px;
+}
+
+strong {
+  font-size: 10px;
+  background-color: rgb(16,162,220);
+  color: white;
+  border-radius:25px;
+  padding: 2px;
+  text-align: right;
 }
